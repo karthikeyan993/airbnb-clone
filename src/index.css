@@ -1,0 +1,158 @@
+:root,
+* {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+h3,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  position: fixed;
+  height: 70px;
+  max-height: 70px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  padding: 22px 3rem;
+  background: #FFFFFF;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 80px;
+  }
+}
+
+/* Hero Banner */
+
+.hero-banner {
+  margin-top: 70px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  img {
+    max-width: 800px;
+    width: 75%;
+    align-self: center;
+  }
+}
+
+.hero-banner__info {
+  width: 60%;
+
+  h3 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}
+
+/* Card */
+
+.card-wrapper {
+  padding: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  max-width: 200px;
+  width: 200px;
+}
+
+.card__image {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    padding: 4px 6px;
+    font-size: 0.6rem;
+  }
+
+  p.hide {
+    display: none;
+  }
+}
+
+.card__info {
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #222;
+}
+
+.card__rating {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  img {
+    width: 14px;
+    height: 14px;
+  }
+
+  span {
+    font-weight: 300;
+    padding-left: 4px;
+  }
+
+  span:not(:first-of-type) {
+    color: #918E9B;
+  }
+}
+
+.card__separator {
+  font-size: 2rem;
+  line-height: 1rem;
+}
+
+.card__title {
+  font-weight: 300;
+}
+
+.card__price {
+  span:not(:last-child) {
+    font-weight: 600;
+  }
+
+  span:last-child {
+    font-weight: 300;
+  }
+}
