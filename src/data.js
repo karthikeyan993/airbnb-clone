@@ -6,6 +6,8 @@ export default [
     country: "USA",
     title: "Life lessons with Katie Zaferes",
     price: "$136",
+    location: "offline",
+    count: 0
   },
   {
     image: "card2.png",
@@ -14,6 +16,8 @@ export default [
     country: "USA",
     title: "Life lessons with Katie Zaferes",
     price: "$136",
+    location: "online",
+    count: 5
   },
   {
     image: "card3.png",
@@ -22,5 +26,7 @@ export default [
     country: "USA",
     title: "Life lessons with Katie Zaferes",
     price: "$136",
+    location: "offline",
+    count: 5
   },
 ]

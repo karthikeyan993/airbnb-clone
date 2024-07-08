@@ -80,15 +80,17 @@ header {
   padding: 3rem;
   display: flex;
   gap: 1rem;
+  overflow: auto;
 }
 
 .card {
-  max-width: 200px;
   width: 200px;
 }
 
 .card__image {
   position: relative;
+  max-width: 200px;
+  width: 200px;
 
   img {
     width: 100%;

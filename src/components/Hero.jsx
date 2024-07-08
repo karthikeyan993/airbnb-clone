@@ -1,4 +1,4 @@
-import heroImage from "../../public/images/airbnb-hero.png";
+import heroImage from "/images/airbnb-hero.png";
 
 export default function Hero() {
   return (
